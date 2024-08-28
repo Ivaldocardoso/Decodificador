@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F3F5FC;
+}
+
+.container{
+    display: flex;
+}
+
+.alura{
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.entrada{
+    height: 100vh;
+    flex: 1;
+    margin-left: 240px;
+}
+
+#output{    
+    height: 100vh;
+    width: 30%;
+    background-color: white;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.area__digitacao{
+    border: none;
+    height: 50%;
+    width: 100%;
+    resize: none;     
+    margin-top: 168px;
+    font-size: 32px;
+    outline: none;
+    background-color: #F3F5FC;
+}
+
+#texto2{
+    
+    border: none;
+    height: 50%;
+    width: 100%;
+    resize: none;     
+    margin-top: 168px;
+    font-size: 32px;
+    outline: none;
+    background-color: transparent;
+    flex-direction: column;    
+}
+
+.btn_crip{
+    border-radius: 24px;
+    background-color: #0A3871;
+    color: white;
+    width: 328px;
+    height: 67px;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+}
+
+.btn_descrip{
+    background-color: #D8DFE8;
+    color: #0A3871;
+    width: 328px;
+    height: 67px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+.container_aviso{
+    display: flex;
+    align-items: center;
+    gap: 8px; 
+    margin-bottom: 15px;  
+}
+
+.disclaimer{
+    font-size: 12px;
+    color: #495057;    
+}
+
+.textos_saida{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    padding: 20px 20px 10px 20px;    
+}
+
+
+.btncopiar{
+    background-color: white;
+    color: #0A3871;
+    cursor: pointer;
+    font-size: 12px;
+    width: 336px;
+    height: 67px;
+    border-radius: 24px;    
+}
+
+
